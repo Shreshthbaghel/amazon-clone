@@ -17,10 +17,10 @@ I built it using **HTML** and **CSS** after completing my beginner web developme
 ## 📸 Screenshots
 
 ### 🔝 Top Section
-![Top Screenshot](./screenshot_top.jpg)
+![Top Screenshot](./screenshot_top.png)
 
 ### 🔻 Bottom Section
-![Bottom Screenshot](./screenshot_bottom.jpg)
+![Bottom Screenshot](./screenshot_bottom.png)
 
 ## 📁 Project Structure
 
