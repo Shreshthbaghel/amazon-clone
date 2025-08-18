@@ -630,7 +630,7 @@ body {
 ul {
     height: 200px;
     width: 150px;
-    padding: 50px;
+    padding: 5px;
 }
 
 ul a {
@@ -711,47 +711,174 @@ ul a {
     margin-right: 5px;
 }
 
-@media (max-width: 600px) {
+ 
+@media (max-width: 768px) {
     .nav {
-        flex-direction: column;
         height: auto;
-        align-items: flex-start;
-        padding: 10px;
+        padding: 8px;
     }
-
+    
+    .nav-logo {
+        width: 80px;
+        height: 30px;
+    }
+    
+    .logo {
+        height: 30px;
+    }
+    
+    .addres {
+        font-size: 0.7rem;
+    }
+    
     .ser {
+        order: 3;
         width: 100%;
-        margin: 10px 0;
+        margin-top: 8px;
+        max-width: none;
     }
-
+    
+    .s2 {
+        width: calc(100% - 85px);
+    }
+    
+    .hello {
+        font-size: 0.8rem;
+    }
+    
+    .box1 {
+        flex-wrap: wrap;
+        height: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
     .hero {
-        height: 250px;
+        height: 300px;
     }
-
+    
     .box {
+        position: relative;
+        top: auto;
+        height: auto;
         flex-direction: column;
         align-items: center;
-        top: auto;
+        gap: 15px;
+        padding: 20px 10px;
     }
-
-    #box2a,
-    #box2b,
-    #box2c,
-    #box2d,
-    #box2e,
-    #box2f,
-    #box2g,
-    #box2h {
+    
+    #box2a, #box2b, #box2c, #box2d, #box2e, #box2f, #box2g, #box2h {
         width: 90%;
+        margin-bottom: 15px;
     }
-
+    
+    .foot {
+        position: relative;
+        top: auto;
+        margin-top: 20px;
+    }
+    
     .foot2 {
         flex-direction: column;
-        align-items: center;
+        height: auto;
+        padding: 20px 0;
     }
-
+    
     ul {
-        width: 100%;
+        width: 90%;
         text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .foot3 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+    
+    .f3a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .f3b, .f3c, .f3d {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 5px;
+    }
+    
+    .nav-logo {
+        width: 70px;
+        height: 25px;
+    }
+    
+    .logo {
+        height: 25px;
+    }
+    
+    .ser {
+        height: 35px;
+    }
+    
+    .s1 {
+        width: 40px;
+        height: 30px;
+    }
+    
+    .s2 {
+        height: 30px;
+        width: calc(100% - 75px);
+    }
+    
+    #m {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .hero {
+        height: 200px;
+    }
+    
+    #box2a, #box2b, #box2c, #box2d, #box2e, #box2f, #box2g, #box2h {
+        width: 95%;
+    }
+    
+    .bx2a, .bx2b, .bx2e, .bx2f {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    #box2a1, #box2a2, #box2a3, #box2a4,
+    #box2b1, #box2b2, #box2b3, #box2b4,
+    #box2e1, #box2e2, #box2e3, #box2e4,
+    #box2f1, #box2f2, #box2f3, #box2f4 {
+        width: 45%;
+        height: 100px;
+    }
+    
+    .bx2c, .bx2g, .bx2h {
+        margin-left: 5px;
+    }
+    
+    .bx2d {
+        margin-left: 5px;
+        gap: 5px;
+    }
+    
+    #box2d2, #box2d3, #box2d4 {
+        width: 28%;
+        height: 25%;
+    }
+    
+    .foot1 {
+        font-size: 0.7rem;
+    }
+    
+    ul a {
+        font-size: 0.7rem;
     }
 }
